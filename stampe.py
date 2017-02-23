@@ -15,3 +15,32 @@ print 3 > 4
 print 3 < 10
 
 
+
+name = "Andrea"
+age = 34
+delta = 10
+template = "Ciao, mi chiamo %s e ho %s anni"
+sentence1 = "Ciao mamma guarda"
+sentence2 = "Come mi diverto"
+
+
+
+print "Ciao, mi chiamo %s e ho %s anni" %(name, age) 
+print "Ciao, sono %s" % name
+print "Ciao, mi chiamo %s e 10 anni fa avevo %s anni" %(name, age - 10)
+print "Ciao, mi chiamo %s e %s anni fa avevo %s anni" %(name, delta, age - delta)
+
+print template % (name, age)
+
+print sentence1 + " " + sentence2
+
+print """
+Lorem ipsum
+dolor sit amet
+"""
+
+print "Ciao, \n mi chiamo Andrea \n\n e ho 34 anni"
+
+
+
+
