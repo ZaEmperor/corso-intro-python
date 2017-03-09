@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def say_hello(name):#questa e' la definzione
     print "Ciao" , name #si chiama indentare, perche' python e' posizionale
 

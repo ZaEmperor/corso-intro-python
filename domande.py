@@ -3,6 +3,7 @@ name = raw_input()
 
 print "Ciao %s. Quanti anni hai?" % name
 age = int(raw_input())
+<<<<<<< HEAD
 print "Perfetto %s di %s anni" % (name,age)
 
 print """
@@ -18,3 +19,4 @@ print "Quindi sei nato nel " , bdate
 place = raw_input("Dove sei nato?")
 
 print "Non e' lontana" , place
+
