@@ -30,6 +30,7 @@ class Blackjack:
 
     def ask_next(self, clist, courage=1):
         # courage: 1,2,3 increasing
+        #fix me
         delta = self.delta_cards(clist)
         if courage == 1  and delta < 6:
             return False
